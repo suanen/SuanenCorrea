@@ -1,0 +1,143 @@
+/* Estilos gerais do site */
+body {
+    background-color: #F2F8FB;
+    color: #203F51;
+    font-family: 'Antic didone';
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos da barra de navegação */
+.header {
+    background-color: #D0E2F0;
+    padding: 12px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header .logo .name,
+.header .menu ul li a {
+    color: #203F51;
+    font-family: 'Antic didone', sans-serif;
+    text-decoration: none;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.header .menu ul li a.active {
+    text-decoration: underline;
+}
+
+.header .social-icons a {
+    margin-left: 12px;
+}
+
+.header .icon {
+    width: 15px;
+}
+
+/* Estilos específicos da página de filtros */
+.filters-section {
+    margin-bottom: 20px;
+}
+
+.filters-description {
+    margin-bottom: 20px;
+}
+
+.filters-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filter-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.filter-item img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #D0E2F0;
+    color: #203F51;
+    padding: 7px;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .navigation,
+.footer .requests,
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .navigation ul,
+.footer .requests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .navigation ul li,
+.footer .requests ul li {
+    margin-bottom: 5px;
+}
+
+.footer .navigation ul li a,
+.footer .requests ul li a {
+    color: #203F51;
+    text-decoration: none;
+}
+
+/* Estilos específicos para garantir que navegação e solicitações fiquem lado a lado */
+.footer .navigation {
+    flex: 1;
+}
+
+.footer .requests {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.footer .social-icons {
+    margin-left: 20px;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}

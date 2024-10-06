@@ -1,0 +1,16 @@
+Cabeçalho:
+cor: ##D0E2F0
+Nome: Suanen Correa cor:#203F51; letra estilo: Antic didone; tamanho adaptável, ela deve ser pequena.
+INICIO, FILTROS, UGC CREATOR, PORTIFOLIO, CONTATO; cor:#203F51 e a selecionável deve estar sublinhada indicando a pagina que está; em outra cor também, cor: #203F51, a mesma letra, ícones das redes sociais num bolinha pequena, com seus respectivos nomes, na cor:cor:#203F51; letra estilo: Antic didone;
+
+Navegação Principal e logo (hander):
+cor: #DCE7ED
+titulo: 'SUANEN CORREA, cor:#3B6977 , estilo da letra: Brown Sugar, tamanho adaptável, grande centralizado;
+abaixo  dele, a navegação principal: "INICIO, FILTROS, UGC CREATOR, PORTIFOLIO, CONTATO" letra estilo: Antic didone; tamanho adaptável, ela deve ser pequena, cor:#203F51, centralizado e alinhado, a barra deve ir de ponta a ponta do site, na altura da letra;
+
+RODAPÉ:
+cor: #D0E2F0
+textos: letra estilo: Antic didone;
+países numa bolinha pequena, o bandeira, e os nomes cor:#203F51; letra estilo: Antic didone;
+
+Site: bg, cor:#F2F8FB, todas as paginas devem ter está cor, títulos: estilo da letra: Brown Sugar e cor: #3B6977 e demais escritas na cor:#203F51 com as fontes de letra: Antic didone;

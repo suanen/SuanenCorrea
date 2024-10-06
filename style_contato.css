@@ -1,0 +1,191 @@
+/* Estilos específicos da página de contato */
+/* Coloquei aqui os estilos específicos da página de contato */
+/* Estilos específicos da página de Contatos */
+
+/* Estilos para formulário de contato */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F2F8FB;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-family: 'CARMELA REGULAR';
+    color: #3B6977;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Antic didone';
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #5a8cc2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Antic didone';
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #6e8ba9;
+}
+
+/* Estilos para informações de contato */
+.contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DCE7ED;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-family: 'CARMELA REGULAR';
+    color: #3B6977;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-family: 'Antic didone';
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-info .contact-icon {
+    font-size: 24px;
+    color: #203F51;
+    margin-right: 10px;
+}
+
+
+/* ESTILO PADRÃO TODAS AS PAGINAS INICIA AQUI*/
+
+
+/* Estilos da barra de navegação */
+.header {
+    background-color: #D0E2F0;
+    padding: 12px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header .logo {
+    font-size: 20px;
+}
+
+.header .logo .name,
+.header .menu ul li a {
+    color: #203F51;
+    font-family: 'Antic didone', sans-serif;
+    text-decoration: none;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.header .menu ul li a.active {
+    text-decoration: underline;
+}
+
+.header .social-icons a {
+    margin-left: 12px;
+}
+
+.header .icon {
+    width: 15px;
+}
+/* Estilos do rodapé */
+.footer {
+    background-color: #D0E2F0;
+    color: #203F51;
+    padding: 7px;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    color: #203F51;
+    text-decoration: none;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer .navigation,
+.footer .requests,
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+/* Aqui estarão as configurações para as letras */
+.section-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+body {
+    background-color: #F2F8FB; /* Cor de fundo do site */
+    color: #203F51; /* Cor do texto */
+    font-family: 'Antic didone';/* Fonte do texto */
+
+}
+
+/* ESTILO PADRÃO TODAS AS PAGINAS FINALIZA AQUI*/

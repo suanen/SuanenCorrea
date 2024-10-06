@@ -1,0 +1,233 @@
+/* Estilos específicos da página inicial */
+/* Coloque aqui os estilos específicos da página inicial */
+/* Estilos da barra de navegação */
+/* Aqui estarão as configurações para as letras */
+.section-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+body {
+    background-color: #F2F8FB; /* Cor de fundo do site */
+    color: #203F51; /* Cor do texto */
+    font-family: 'Antic didone';/* Fonte do texto */
+
+}
+
+/*INICIO*/
+
+.header {
+    background-color: #D0E2F0;
+    padding: 12px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header .logo {
+    font-size: 20px;
+}
+
+.header .logo .name,
+.header .menu ul li a {
+    color: #203F51;
+    font-family: 'Antic didone', sans-serif;
+    text-decoration: none;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.header .menu ul li a.active {
+    text-decoration: underline;
+}
+
+.header .social-icons a {
+    margin-left: 12px;
+}
+
+.header .icon {
+    width: 15px;
+}
+
+/* Estilos do logo */
+.logo-name {
+    background-color: #DCE7ED;
+    text-align: center;
+    padding: 80px 0;
+    margin-top: -10px;
+}
+
+.logo-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 4em;
+    margin: 0;
+}
+
+/* Estilos do conteúdo da seção "Sobre" */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.about-text {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    right: 10px;
+}
+
+.about-image {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    left: 10px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.more-photos {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.more-photos-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.more-photos-gallery img {
+    width: calc(25% - 5px);
+    height: auto;
+}
+
+
+/* Media Query para telas maiores */
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .about-content {
+        flex-direction: row;
+    }
+
+    .about-text {
+        flex: 1;
+        margin-right: 20px;
+        margin-top: 0;
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .more-photos-gallery img {
+        width: 23%;
+    }
+}
+
+/* Media Query para telas menores */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        flex: 1;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .more-photos-gallery img {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #D0E2F0;
+    color: #203F51;
+    padding: 7px;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    color: #203F51;
+    text-decoration: none;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer .navigation,
+.footer .requests,
+.footer .social-icons {
+    margin-bottom: 20px;
+}

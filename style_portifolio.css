@@ -1,0 +1,192 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F8FB; /* Cor de fundo do site */
+    color: #203F51; /* Cor do texto */
+    font-family: 'Antic didone'; /* Fonte do texto */
+}
+
+/* Estilos específicos da página de portfólio */
+#product-videos {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#product-videos h2 {
+    margin-bottom: 20px;
+}
+
+#product-videos .grid {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os vídeos se ajustem em várias linhas */
+    justify-content: center; /* Centraliza os vídeos */
+    gap: 15px; /* Espaçamento entre os vídeos */
+}
+
+/* Estilo para cada vídeo */
+.video {
+    flex: 0 1 23%; /* Ajuste para um valor que funcione bem em quatro colunas */
+    display: flex;
+    flex-direction: column; /* Para alinhar o vídeo e o texto verticalmente */
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+.video video {
+    width: 100%; /* O vídeo ocupará toda a largura do contêiner */
+    height: 150px; /* Defina a altura desejada para os vídeos */
+}
+
+.video p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilos para a seção de fotos de produtos */
+#product-photos {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#product-photos h2 {
+    margin-bottom: 20px;
+}
+
+#product-photos .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#product-photos .photo {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+
+#product-photos .photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para a seção de mais fotos */
+#more-photos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#more-photos h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#more-photos .more-photos-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Estilos da barra de navegação */
+.header {
+    background-color: #D0E2F0;
+    padding: 12px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header .logo {
+    font-size: 20px;
+}
+
+.header .logo .name,
+.header .menu ul li a {
+    color: #203F51;
+    font-family: 'Antic didone', sans-serif;
+    text-decoration: none;
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0;
+}
+
+.header .menu ul li a.active {
+    text-decoration: underline;
+}
+
+.header .social-icons a {
+    margin-left: 12px;
+}
+
+.header .icon {
+    width: 15px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #D0E2F0;
+    color: #203F51;
+    padding: 7px;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    color: #203F51;
+    text-decoration: none;
+}
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer .navigation,
+.footer .requests,
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+/* Aqui estarão as configurações para as letras */
+.section-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 2em;
+    margin-bottom: 40px;
+}

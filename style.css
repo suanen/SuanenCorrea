@@ -1,0 +1,448 @@
+.header {
+    background-color: #D0E2F0;
+    padding: 12px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; /* Ajuste de espaçamento */
+}
+
+.header .logo {
+    font-size: 20px; /* Diminuir tamanho da fonte */
+}
+
+.header .logo .name, .header .menu ul li a {
+    color: #203F51;
+    font-family: 'Antic didone'; /* Adicionar a fonte */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .menu ul li {
+    display: inline;
+    margin-right: 10px; /* Aumentar o espaçamento entre os itens do menu */
+}
+
+.header .menu ul li:last-child {
+    margin-right: 0; /* Remover margem direita do último item */
+}
+
+.header .menu ul li a.active {
+    text-decoration: underline;
+}
+
+.header .social-icons a {
+    margin-left: 12px;
+}
+
+.header .icon {
+    width: 15px;
+
+}
+  /* logo */
+
+.icon {
+    width: 15px;
+}
+
+
+
+.logo-name {
+    background-color: #DCE7ED;
+    text-align: center;
+    padding: 80px 0; /* Adicionado espaço interno */
+    margin-top: -10px; /* Ajuste para alinhar com o cabeçalho */
+}
+
+.logo-title {
+    color: #3B6977;
+    font-family: 'CARMELA REGULAR';
+    font-size: 4em; /* Tamanho adaptável */
+    margin: 0; /* Remover margem para alinhamento perfeito */ }
+
+/*parte 2 = parte tela de inicio*/
+body {
+    background-color: #F2F8FB; /* Cor de fundo do site */
+    color: #203F51; /* Cor do texto */
+    font-family: 'Antic didone';/* Fonte do texto */
+
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo na página */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.section-title {
+    color: #3B6977; /* Cor do título */
+    font-family: 'CARMELA REGULAR';/* Fonte do título */
+    font-size: 2em; /* Tamanho do título */
+    margin-bottom: 40px; /* Espaçamento abaixo do título */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens no início do container flexível verticalmente */
+    margin-top: 20px; /* Ajusta a margem superior conforme necessário */
+}
+
+
+
+
+.about-text {
+    max-width: 50%;
+    height: auto;
+    position: relative;
+    right: 10px;
+    
+    
+}
+
+.about-image {
+    max-width: 50%; /* Definindo a largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    position: relative; /* Define a posição relativa para a imagem */
+    left: 10px; /* Move a imagem 20 pixels para a direita */
+}
+
+
+
+.about-image img {
+    width: 100%; /* Largura total da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.more-photos {
+    margin-top: 20px; /* Espaçamento acima do título "Veja mais fotos" */
+    font-size: 1.2em; /* Tamanho do título "Veja mais fotos" */
+}
+
+.more-photos-gallery {
+    display: flex; /* Usa flexbox para alinhar as fotos */
+    justify-content: space-between; /* Espaçamento uniforme entre as fotos */
+    margin-top: 10px; /* Espaçamento acima da galeria de fotos */
+}
+
+.more-photos-gallery img {
+    width: calc(25% - 5px); /* Largura de 25% do container com um pequeno espaçamento entre as fotos */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+/* CSS para telas maiores que 768px (tablets e desktops) */
+@media only screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .about-content {
+        flex-direction: row;
+    }
+
+    .about-text {
+        flex: 1;
+        margin-right: 20px;
+        margin-top: 0; /* Removendo o ajuste de margem superior */
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .more-photos-gallery img {
+        width: 23%; /* Ajustando o tamanho das fotos para ocupar 23% da largura da tela */
+    }
+}
+
+/* CSS para telas menores que 768px (celulares) */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        flex: 1;
+        margin-right: 0; /* Removendo o ajuste de margem direita */
+        margin-top: 20px; /* Adicionando um espaçamento superior */
+    }
+
+    .about-image {
+        flex: 1;
+    }
+
+    .more-photos-gallery img {
+        width: 45%; /* Ajustando o tamanho das fotos para ocupar 45% da largura da tela */
+        margin-bottom: 10px; /* Adicionando espaçamento inferior entre as fotos */
+    }
+}
+/* Rodapé */
+.footer {
+    background-color: #D0E2F0;
+    color: #203F51;
+    padding: 7px;
+}
+
+.footer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer a {
+    color: #203F51;
+    text-decoration: none;
+}
+
+.footer .social-icons img {
+    width: 30;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer .navigation, .footer .requests, .footer .social-icons {
+    margin-bottom: 20px; /* Adiciona espaço entre as colunas */
+}
+
+/*CSS PARA FILTROS
+---------*/
+
+/* CSS PARA FILTROS */
+.filter-videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-video {
+    flex: 0 0 30%; /* Define a largura de cada vídeo */
+    margin-right: 10px; /* Adiciona um espaçamento entre os vídeos */
+}
+
+.filter-video:last-child {
+    margin-right: 0; /* Remove a margem direita do último vídeo */
+}
+
+.snapchat-videos .filter-video {
+    flex: 0 0 48%; /* Define a largura de cada vídeo do Snapchat */
+}
+
+.filter-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filter-icons a {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+/* CSS PARA FILTROS */
+/* Adicione estas regras para os vídeos */
+.filter-video video {
+    width: 100%; /* O vídeo ocupará 100% da largura do contêiner pai */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção original */
+}
+
+/* Adicione estas regras para os textos */
+.filters-section p {
+    max-width: 100%; /* Define a largura máxima para o parágrafo */
+    word-wrap: break-word; /* Permite que as palavras sejam quebradas para caber na largura máxima */
+}
+
+/*layout fotos  UGC CREATOR*/
+
+/* Estilos para o texto */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    font-family: "Antic Didone", sans-serif;
+    color: #203F51; /* Cor padrão para o texto */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Carmela Regular", sans-serif;
+    color: #203F51; /* Cor padrão para os títulos */
+    
+}
+
+/* Estilos para o layout das fotos e vídeos */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+}
+
+.photos, .videos {
+    width: 50%;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Alterado para 2 colunas */
+    grid-gap: 10px;
+}
+
+.photo img, .video iframe {
+    width: 100%;
+    height: auto;
+}
+/* css para textos ugc creator*/
+.text-section {
+    margin-top: 50px;
+}
+
+.text-section h2 {
+    font-size: 24px;
+    color: #203F51;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #203F51;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #5a8cc2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6e8ba9;
+}
+/* Estilos para as fotos de produtos
+--- portifolio----  */
+/* Estilos para o título da seção de fotos de produtos */
+#product-videos {
+    padding: 20px 15px; /* Adiciona um espaçamento nos lados */
+    text-align: center; /* Centraliza o texto */
+}
+
+#product-videos h2 {
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+}
+
+#product-videos .grid {
+    display: flex;
+    justify-content: center; /* Centraliza os vídeos na página */
+}
+
+#product-videos .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#product-videos .video {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+}
+
+#product-videos .video iframe {
+    width: 100%;
+}
+/* FOTOS */
+/* Estilos para a seção de fotos */
+#product-photos {
+    padding: 20px 15px;
+    text-align: center;
+}
+
+#product-photos h2 {
+    margin-bottom: 20px;
+}
+
+#product-photos .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza as fotos */
+    gap: 10px; /* Espaçamento entre as fotos */
+}
+
+#product-photos .photo {
+    width: calc(25% - 10px); /* Ajusta a largura das fotos com espaçamento */
+    margin-bottom: 20px;
+}
+
+#product-photos .photo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para a seção de mais fotos */
+#more-photos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#more-photos h2 {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#more-photos .more-photos-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza as fotos */
+    gap: 10px; /* Espaçamento entre as fotos */
+    margin-top: 10px;
+}
+
+#more-photos .photo {
+    width: calc(20% - 10px); /* Ajusta a largura das fotos com espaçamento */
+    margin-bottom: 20px;
+}
+
+#more-photos .photo img {
+    width: 100%;
+    height: auto;
+}
